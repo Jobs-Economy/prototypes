@@ -11,6 +11,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap-slider.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
@@ -19,8 +20,14 @@
         <h1 class="page-header">Raise Effect</h1>
         <p class="lead">The Oregon minimum wage is currently <a href="#">$9.25</a>. Is that enough? We’ve looked at different types of families in the state of Oregon to see if the current minimum wage supports <a href="#">self-sufficiency</a>.</p>
 
-        <div class="col-md-6">
+        <div class="wage-slider">
+          <h2>How can raising the minimum wage make a difference?</h2>
+          <input class="slider" id="wage-slider" data-slider-id='wage-slider'data-slider-ticks="[9.25, 25]" data-slider-ticks-labels="['$9.25', '$25']" data-slider-value="15"/>
+        </div>
+
+        <div class="col-md-6 map">
           <h2>Effect of Minimum Wage on Self-Sufficiency</h2>
+          <input class="slider" id="map-slider" data-slider-id='map-slider' type="text" data-slider-min="9.25" data-slider-max="25" data-slider-step="1" data-slider-value="15"/>
           <img src="http://bernar.d.pr/18xm4+" class="img-responsive">
         </div>
 
@@ -43,5 +50,7 @@
     <!-- jQuery first, then Bootstrap JS. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-slider.js"></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
