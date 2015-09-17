@@ -8,13 +8,12 @@
   text-align: center; }
 
 .wage-slider {
-  height: 100%;
-  padding-top: 3em; }
+  height: 100%; }
 
 .slider {
   padding: 2em 0; }
-  .slider#map-slider {
-    width: 100%; }
+  .slider#wage-slider {
+    width: 90%; }
 
 .family-type {
   text-align: center; }
