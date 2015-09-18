@@ -8,8 +8,7 @@ body {
   .navbar button {
     color: white; }
 
-.wage-slider,
-.wage-breakdown {
+.component {
   text-align: center; }
 
 .wage-slider {
@@ -24,5 +23,10 @@ body {
 .map h3 {
   text-align: center; }
 
-.family-type {
-  text-align: center; }
+.households .family-type-icon {
+  text-align: right; }
+
+.households h3 {
+  margin-top: 0; }
+  .households h3 span {
+    float: right; }
