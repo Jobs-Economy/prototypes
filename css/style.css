@@ -20,5 +20,9 @@ body {
   .slider#wage-slider {
     width: 90%; }
 
+.map h2,
+.map h3 {
+  text-align: center; }
+
 .family-type {
   text-align: center; }
